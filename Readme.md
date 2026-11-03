@@ -22,7 +22,7 @@ A VPS installer (`install.sh`) and standalone SOCKS5/tunnel client (`client.py`)
 After uploading `install.sh`, `client.py`, and `README.md` to your GitHub repository, run this on your VPS as `root` (replace `allowed-nginx-site.com` with the website your ISP allows):
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/<your-username>/<your-repo>/main/install.sh) --allowed-site allowed-nginx-site.com
+bash <(curl -Ls https://raw.githubusercontent.com/faresbazed/Nginx-Vps-Panel/main/install.sh) --allowed-site allowed-nginx-site.com
 ```
 
 ### Installer Flags
